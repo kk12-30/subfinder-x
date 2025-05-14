@@ -24,6 +24,7 @@ subfinder-x是一款高性能的子域名爆破工具，使用 Go 语言开发�
 # 使用默认配置扫描目标域名
 subfinder-x.exe -u example.com
 ```
+![image](1.png)
 
 #### 使用自定义字典
 
@@ -32,19 +33,13 @@ subfinder-x.exe -u example.com
 subfinder-x.exe -u example.com -d subdict.txt
 ```
 
-#### 设置扫描深度
-
-```bash
-# 设置子域名扫描深度为3
-subfinder-x.exe -u example.com -s 3
-```
-
 #### 使用FUZZ模式
 
 ```bash
 # 使用FUZZ模式进行定向扫描
 subfinder-x.exe -u example.com -fd "test-FUZZ" -d subdict.txt
 ```
+![image](2.png)
 
 #### 启用HTTP扫描
 
@@ -52,6 +47,7 @@ subfinder-x.exe -u example.com -fd "test-FUZZ" -d subdict.txt
 # 启用HTTP服务扫描和指纹识别
 subfinder-x.exe -u example.com -x
 ```
+![image](3.png)
 
 ## 高级功能
 
