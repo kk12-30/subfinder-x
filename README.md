@@ -14,8 +14,6 @@ subfinder-x是一款高性能的子域名爆破工具，使用 Go 语言开发�
 | `-v` | `--version` | 显示版本信息 | - |
 | `-u` | `--domain` | 指定目标域名（必需） | - |
 | `-d` | `--dict` | 指定字典文件 | test.txt |
-| `-s` | `--deep` | 设置子域名扫描深度 | 5 |
-| `-c` | `--check_bk` | 是否检测泛解析（true/false） | true |
 | `-fd` | `--fuzz_data` | 设置FUZZ数据 | - |
 | `-an` | `--analysis_domain` | 分析CNAME记录 | - |
 | `-n` | `--next` | 指定下一级域名字典 | mini_names.txt |
@@ -41,13 +39,6 @@ subfinder-x.exe -u example.com -d subdict.txt
 ```bash
 # 设置子域名扫描深度为3
 subfinder-x.exe -u example.com -s 3
-```
-
-#### 关闭泛解析检测
-
-```bash
-# 关闭泛解析检测功能
-subfinder-x.exe -u example.com -c false
 ```
 
 #### 使用FUZZ模式
