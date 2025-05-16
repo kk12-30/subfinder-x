@@ -1,5 +1,5 @@
 # subfinder-x - 新一代子域名爆破工具
-![Version](https://img.shields.io/badge/Version-1.0.0-green)
+![Version](https://img.shields.io/badge/Version-2.0-green)
 
 ## 工具简介
 subfinder-x是一款高性能的子域名爆破工具，使用 Go 语言开发，专为信息收集和渗透测试场景设计。该工具能够快速发现目标域名的子域名，并支持多级子域名扫描、HTTP服务识别和指纹识别等功能。
