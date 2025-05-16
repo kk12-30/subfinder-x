@@ -17,7 +17,7 @@ subfinder-x是一款高性能的子域名爆破工具，使用 Go 语言开发�
 | `-d` | `--dict` | 指定字典文件 | test.txt |
 | `-fd` | `--fuzz_data` | 设置FUZZ数据 | - |
 | `-x` | - | 启用HTTP扫描和指纹识别 | false |
-| `-c` | - | 是否开启随机子域名检查 | true |
+| `-c` | - | 是否开启随机子域名检查 | false |
 | `-fp` | - | 指定指纹库路径 | finger.json |
 | `-n` | --next | 指定二级字典文件 | mini_names.txt |
 
