@@ -1,4 +1,4 @@
-# subfinder-x - 新一代子域名爆破工具
+# subfinder-x  新一代子域名爆破工具
 ![Version](https://img.shields.io/badge/Version-2.0-green)
 
 ## 工具简介
